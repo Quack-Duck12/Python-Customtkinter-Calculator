@@ -46,7 +46,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jevis Maniyar - [@jevis_maniyar](https://twitter.com/jevis_maniyar) -jevismainyar111@gmail.com
+Jevis Maniyar <p>   </p> [![Twitter / X][Twitter-shield]][Twitter-url] <p>   </p>   jevismainyar111@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,3 +69,6 @@ Jevis Maniyar - [@jevis_maniyar](https://twitter.com/jevis_maniyar) -jevismainya
 
 [license-shield]: https://img.shields.io/github/license/Quack-Duck12/Python-Customtkinter-Calculator
 [license-url]: https://github.com//Quack-Duck12/Python-Customtkinter-Calculator/blob/master/LICENSE.txt
+
+[Twitter-shield]: https://twitter.com/jevis_maniyar
+[Twitter-url]: https://twitter.com/jevis_maniyar
