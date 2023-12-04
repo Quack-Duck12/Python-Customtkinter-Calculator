@@ -44,13 +44,25 @@ def Total(Ent):
     # Dealing With Divide By Zero Error
     except(ZeroDivisionError):
 
-        # Getting User IP Address
-        from socket import gethostbyname,gethostname
+        # Funny
+        from webbrowser import open
+        #from random import random
 
-        hostname = gethostname()
-        ip_address = gethostbyname(hostname)
+        open("https://www.youtube.com/watch?v=WI_qPBQhJSM")
 
-        # Funny https://youtu.be/C7EocA1hsCU?si=oJ1f8mF910gaFI9C 
-        All_Clear(Ent)
-        Ent.insert(END,f"Your Ip: {ip_address}")
-        print("https://youtu.be/GDg9lWcdqDc?t=10\n"*25)
+        #x = random()
+
+        #if(x<0.26):
+            #open('https://youtu.be/GDg9lWcdqDc?t=10')
+        #elif(x>0.24 & x<0.51):
+            #open('https://youtu.be/nlLhw1mtCFA')
+        #elif(x>0.49 & x<0.76):
+            #open("https://youtu.be/xPh-5P4XH6o?t=104")
+        #elif(x>0.74):
+            #open("https://youtu.be/srjLwgtcxYo")
+
+        #if (x>0.2 and x<0.3):
+            #open('https://youtu.be/GDg9lWcdqDc?t=10')
+            #open('https://youtu.be/nlLhw1mtCFA')
+            #open("https://youtu.be/xPh-5P4XH6o?t=104")
+            #open("https://youtu.be/srjLwgtcxYo")
