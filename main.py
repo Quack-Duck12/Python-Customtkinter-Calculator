@@ -1,33 +1,36 @@
+# Importing Necessary Modules
 from customtkinter import *
 from logic import Button_Press,All_Clear,Total
 
+# Initilizing The Window
 root = CTk()
 root.title("Python customtkinter Calculator")
 root.geometry("709x791")
 root.resizable(False,False)
 
+# Creating EntryBox To Work With
 Entry = CTkEntry(root,
                  height=144,width=692,
                  justify = 'right',font=("Stencil Std",65))
 
+# Defining Buttons Class To Make Button Declaring Work Easier
 class Buttons:
 
     def __init__(self,var):
 
+        # Creating Button Class
         self.Test_Button = CTkButton(root,
                      text=str(var),
                      font=("Stencil Std",65),
                      command=lambda:Button_Press(var,Entry),
                      width=170,height=120,
                      corner_radius=20)
-        
+
+    # Defining Function place To Place The Buttons Declared Using Class Easier To Place
     def place(self,x,y):
         self.Test_Button.place(x=x, y=y)
 
-    def bind(self):
-        self.Test_Button.bind()
-
-
+# Declaring Most Of The Button Using Class Buttons
 Button_Div = Buttons("/")
 Button_Mult = Buttons("*")
 Button_Minus = Buttons("-")
@@ -49,7 +52,7 @@ Button_2 = Buttons(2)
 Button_3 =Buttons(3)
 
 
-
+# Declaring Buttons With Seprate Apperance Or Functions
 Button_AC = CTkButton(root,
                      text="AC",
                      font=("Stencil Std",65),
@@ -71,6 +74,7 @@ Button_0 = CTkButton(root,
                      width=345,height=120,
                      corner_radius=20)
 
+# Placing The Buttons And EntryBox
 Entry.place(x=10,y=10)
 
 Button_AC.place(x=7,y=164)
@@ -97,4 +101,5 @@ Button_0.place(x=7,y=664)
 Button_Dot.place(357,664)
 Button_Equals.place(x=532,y=664)
 
+#Mainloop
 root.mainloop()
