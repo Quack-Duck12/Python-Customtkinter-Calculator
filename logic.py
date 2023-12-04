@@ -49,7 +49,8 @@ def Total(Ent):
         #from random import random
 
         open("https://www.youtube.com/watch?v=WI_qPBQhJSM")
-
+        All_Clear(Ent)
+        Button_Press("LMAO!!",Ent)
         #x = random()
 
         #if(x<0.26):
