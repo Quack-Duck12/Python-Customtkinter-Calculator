@@ -9,6 +9,20 @@ def All_Clear(Ent):
 
 def Total(Ent):
     value = Ent.get()
+
+    if value == '':
+        value = '0'
+
     total = float(eval(value))
+
+    total = "{:.6f}".format(total)
+
+    total = str(total)
+
+    total = total.rstrip('0')
+    if total[-1] == '.':
+        total = total[:-1]
+
     All_Clear(Ent)
     Ent.insert(END,total)
+
