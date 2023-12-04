@@ -101,5 +101,5 @@ Button_0.place(x=7,y=664)
 Button_Dot.place(357,664)
 Button_Equals.place(x=532,y=664)
 
-#Mainloop
+# Mainloop
 root.mainloop()
