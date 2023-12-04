@@ -4,6 +4,7 @@ from logic import Button_Press,All_Clear,Total
 root = CTk()
 root.title("Python customtkinter Calculator")
 root.geometry("709x791")
+root.resizable(False,False)
 
 Entry = CTkEntry(root,
                  height=144,width=692,
@@ -22,6 +23,9 @@ class Buttons:
         
     def place(self,x,y):
         self.Test_Button.place(x=x, y=y)
+
+    def bind(self):
+        self.Test_Button.bind()
 
 
 Button_Div = Buttons("/")
@@ -60,6 +64,13 @@ Button_Equals = CTkButton(root,
                      width=170,height=120,
                      corner_radius=20)
 
+Button_0 = CTkButton(root,
+                     text="0",
+                     font=("Stencil Std",65),
+                     command=lambda:Button_Press(0,Entry),
+                     width=345,height=120,
+                     corner_radius=20)
+
 Entry.place(x=10,y=10)
 
 Button_AC.place(x=7,y=164)
@@ -78,7 +89,12 @@ Button_6.place(x=357,y=414)
 Button_Bracket_Open.place(x=532,y=414)
 
 Button_1.place(x=7,y=539)
+Button_2.place(x=182,y=539)
+Button_3.place(x=357,y=539)
+Button_Bracket_Close.place(x=532,y=539)
 
-Button_Equals.place(x=200,y=400)
+Button_0.place(x=7,y=664)
+Button_Dot.place(357,664)
+Button_Equals.place(x=532,y=664)
 
 root.mainloop()
