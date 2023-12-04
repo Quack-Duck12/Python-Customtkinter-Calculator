@@ -6,3 +6,9 @@ def Button_Press(X,Ent):
 
 def All_Clear(Ent):
     Ent.delete(0,END)
+
+def Total(Ent):
+    value = Ent.get()
+    total = float(eval(value))
+    All_Clear(Ent)
+    Ent.insert(END,total)
