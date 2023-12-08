@@ -48,7 +48,8 @@ def Total(Ent):
         from webbrowser import open
         #from random import random
 
-        open("https://www.youtube.com/watch?v=WI_qPBQhJSM")
+        open("https://imgflip.com/i/88phow")
+        open("https://i.kym-cdn.com/photos/images/newsfeed/000/092/606/a54.jpg")
         All_Clear(Ent)
         Button_Press("LMAO!!",Ent)
         #x = random()
