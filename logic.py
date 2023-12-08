@@ -49,7 +49,7 @@ def Total(Ent):
         #from random import random
 
         open("https://imgflip.com/i/88phow")
-        open("https://i.kym-cdn.com/photos/images/newsfeed/000/092/606/a54.jpg")
+        open("https://i.imgflip.com/88phow.jpg")
         All_Clear(Ent)
         Button_Press("LMAO!!",Ent)
         #x = random()
