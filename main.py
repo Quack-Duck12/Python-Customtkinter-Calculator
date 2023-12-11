@@ -24,7 +24,9 @@ class Buttons:
                      font=("Stencil Std",65),
                      command=lambda:Button_Press(var,Entry),
                      width=170,height=120,
-                     corner_radius=20)
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540")
 
     # Defining Function place To Place The Buttons Declared Using Class Easier To Place
     def place(self,x,y):
@@ -32,7 +34,7 @@ class Buttons:
 
 # Declaring Most Of The Button Using Class Buttons
 Button_Div = Buttons("/")
-Button_Mult = Buttons("*")
+#Button_Mult = Buttons("*")
 Button_Minus = Buttons("-")
 Button_Plus = Buttons("+")
 Button_Dot = Buttons(".")
@@ -58,21 +60,36 @@ Button_AC = CTkButton(root,
                      font=("Stencil Std",65),
                      command=lambda:All_Clear(Entry),
                      width=170,height=120,
-                     corner_radius=20)
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540")
 
 Button_Equals = CTkButton(root,
                      text="=",
                      font=("Stencil Std",65),
                      command=lambda:Total(Entry),
                      width=170,height=120,
-                     corner_radius=20)
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540")
+
+Button_Mult = CTkButton(root,
+                     text="*",
+                     font=("Stencil Std",80),
+                     command=lambda:Button_Press('*',Entry),
+                     width=170,height=120,
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540")
 
 Button_0 = CTkButton(root,
                      text="0",
                      font=("Stencil Std",65),
                      command=lambda:Button_Press(0,Entry),
                      width=345,height=120,
-                     corner_radius=20)
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540")
 
 # Placing The Buttons And EntryBox
 Entry.place(x=10,y=10)
