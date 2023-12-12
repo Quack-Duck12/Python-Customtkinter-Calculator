@@ -1,6 +1,6 @@
 # Importing Necessary Modules
 from customtkinter import *
-from logic import Button_Press,All_Clear,Total
+from logic import *
 
 # Initilizing The Window
 root = CTk()
@@ -34,7 +34,6 @@ class Buttons:
 
 # Declaring Most Of The Button Using Class Buttons
 Button_Div = Buttons("/")
-#Button_Mult = Buttons("*")
 Button_Minus = Buttons("-")
 Button_Plus = Buttons("+")
 Button_Dot = Buttons(".")
@@ -51,7 +50,9 @@ Button_6 = Buttons(6)
 
 Button_1 = Buttons(1)
 Button_2 = Buttons(2)
-Button_3 =Buttons(3)
+Button_3 = Buttons(3)
+
+Button_0 = Buttons(0)
 
 
 # Declaring Buttons With Seprate Apperance Or Functions
@@ -63,6 +64,15 @@ Button_AC = CTkButton(root,
                      corner_radius=20,
                      fg_color="#164882",
                      hover_color="#132540")
+
+Button_BackSpace = CTkButton(root,
+                     font=("Stencil Std",26),
+                     command=lambda:BackSpace(Entry),
+                     width=170,height=120,
+                     corner_radius=20,
+                     fg_color="#164882",
+                     hover_color="#132540",
+                     text="BackSpace",)
 
 Button_Equals = CTkButton(root,
                      text="=",
@@ -78,15 +88,6 @@ Button_Mult = CTkButton(root,
                      font=("Stencil Std",80),
                      command=lambda:Button_Press('*',Entry),
                      width=170,height=120,
-                     corner_radius=20,
-                     fg_color="#164882",
-                     hover_color="#132540")
-
-Button_0 = CTkButton(root,
-                     text="0",
-                     font=("Stencil Std",65),
-                     command=lambda:Button_Press(0,Entry),
-                     width=345,height=120,
                      corner_radius=20,
                      fg_color="#164882",
                      hover_color="#132540")
@@ -115,7 +116,8 @@ Button_3.place(x=357,y=539)
 Button_Bracket_Close.place(x=532,y=539)
 
 Button_0.place(x=7,y=664)
-Button_Dot.place(357,664)
+Button_Dot.place(x=182,y=664)
+Button_BackSpace.place(x=357,y=664)
 Button_Equals.place(x=532,y=664)
 
 # Mainloop

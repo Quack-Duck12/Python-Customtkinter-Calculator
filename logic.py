@@ -8,7 +8,10 @@ def Button_Press(X,Ent):
 def All_Clear(Ent):
     Ent.delete(0,END)
 
-# Defining Function To Find THe Total
+def BackSpace(Ent):
+    Ent.delete(len(Ent.get())-1,END)
+
+# Defining Function To Find The Total
 def Total(Ent):
     # Geting The Value Stored Within The EntryBox
     value = Ent.get()
