@@ -8,6 +8,7 @@ def Button_Press(X,Ent):
 def All_Clear(Ent):
     Ent.delete(0,END)
 
+# Defining Function To Delete The Last Entered Character In The Entry Box
 def BackSpace(Ent):
     Ent.delete(len(Ent.get())-1,END)
 
