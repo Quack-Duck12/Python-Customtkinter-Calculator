@@ -41,11 +41,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
-
-<p>   </p> [![Twitter / X][Twitter-shield]][Twitter-url] <p>   </p> 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -65,6 +60,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [license-shield]: https://img.shields.io/github/license/Quack-Duck12/Python-Customtkinter-Calculator
 [license-url]: https://github.com//Quack-Duck12/Python-Customtkinter-Calculator/blob/master/LICENSE.txt
-
-[Twitter-shield]: https://x.com/jevman98
-[Twitter-url]: https://x.com/jevman98
