@@ -26,12 +26,12 @@
 
 <h5>Just A Simple Python Calculator Made By Me To Get Familized With customtkinter</h5>
 
-### Prerequisites
-
-* customtkinter  (https://github.com/TomSchimansky/CustomTkinter)
+### How to run
   ```sh
-  
-  pip install customtkinter
+  git clone https://github.com/Quack-Duck12/Python-Customtkinter-Calculator.git
+  cd Python-Customtkinter-Calculator
+  pip install -r requriments.txt
+  python main.py
   ```
 
 <!-- LICENSE -->
@@ -41,16 +41,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Jevis Maniyar <p>   </p> [![Twitter / X][Twitter-shield]][Twitter-url] <p>   </p>   jevismainyar111@gmail.com
+<p>   </p> [![Twitter / X][Twitter-shield]][Twitter-url] <p>   </p> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -70,5 +66,5 @@ Jevis Maniyar <p>   </p> [![Twitter / X][Twitter-shield]][Twitter-url] <p>   </p
 [license-shield]: https://img.shields.io/github/license/Quack-Duck12/Python-Customtkinter-Calculator
 [license-url]: https://github.com//Quack-Duck12/Python-Customtkinter-Calculator/blob/master/LICENSE.txt
 
-[Twitter-shield]: https://twitter.com/jevis_maniyar
-[Twitter-url]: https://twitter.com/jevis_maniyar
+[Twitter-shield]: https://x.com/jevman98
+[Twitter-url]: https://x.com/jevman98
